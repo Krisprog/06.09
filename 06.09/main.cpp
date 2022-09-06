@@ -15,12 +15,6 @@ public:
 		y = b;
 	}
 };
-class Person
-{
-	string name;
-	int age;
-public:
-};
 int main()
 {
 	 
