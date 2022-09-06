@@ -1,19 +1,21 @@
 #include<iostream>
 using namespace std;
 
-class Point
+class Student
 {
-	int x, y;
+	string name;
+	int age;
 public:
-	Point()
+	Student()
 	{
-		x = y = 0;
+
 	}
-	Point(int a, int b)
+	Student(string n, int a)
 	{
-		x = a;
-		y = b;
+		name = n;
+		age = a;
 	}
+
 	void Print()
 	{
 		cout << "X: " << x << "\nY: " << y << endl << endl;
