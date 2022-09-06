@@ -14,8 +14,14 @@ public:
 		x = a;
 		y = b;
 	}
+	void Print()
+	{
+		cout << "X: " << x << "\nY: " << y << endl << endl;
+	}
 };
 int main()
 {
-	 
+	Point obj1;
+	Point obj2(1, 2);
+	obj2.Print();
 }
