@@ -15,10 +15,11 @@ public:
 		name = n;
 		age = a;
 	}
-
 };
 int main()
 {
 
 	 
+
+	
 }
